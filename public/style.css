@@ -1,0 +1,37 @@
+@import url(./query/mobile/main.css);
+@import url(./query/tablet/main.css) only screen and (min-width: 768px);
+@import url(./query/desktop/main.css) only screen and (min-width: 1024px);
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: rtl;
+  overflow: hidden;
+}
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fonts);
+}
+:root {
+  --fonts: iran-yekan;
+}
+@font-face {
+  font-family: iran-yekan;
+  src: url(./fonts/transfonter.org-20240701-082522/IRANYekanWeb.eot);
+  src: url(./fonts/transfonter.org-20240701-082522/IRANYekanWeb.ttf);
+  src: url(./fonts/transfonter.org-20240701-082522/IRANYekanWeb.woff);
+  src: url(./fonts/transfonter.org-20240701-082522/IRANYekanWeb.woff2);
+}

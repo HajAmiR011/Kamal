@@ -1,0 +1,15 @@
+.line{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 95px 0 40px;
+    max-width: 1920px;
+    h2{
+        font-weight: normal;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+}

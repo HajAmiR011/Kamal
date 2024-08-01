@@ -1,0 +1,28 @@
+.wrapper {
+  .wrapper_center {
+    flex-flow: row wrap;
+    .pro {
+      height: 340px;
+      .wrapper_right {
+        width: 35%;
+        height: inherit;
+      }
+      .wrapper_left {
+        width: 65%;
+        height: inherit;
+        .content {
+          padding: 50px 40px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+    .pro:nth-of-type(odd) {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .pro:nth-of-type(even) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

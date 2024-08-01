@@ -1,0 +1,19 @@
+header {
+  .header_top {
+    .end {
+      margin-left: 40px;
+    }
+  }
+  .header_buttom {
+    .hamberger {
+      width: fit-content;
+      position: relative;
+      right: 35%;
+    }
+    .img {
+      position: relative;
+      left: 70%;
+      width: fit-content;
+    }
+  }
+}

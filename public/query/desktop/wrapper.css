@@ -1,0 +1,23 @@
+.wrapper {
+  .wrapper_center {
+    .pro {
+      width: 50%;
+      height: 550px;
+      .wrapper_right {
+        width: 50%;
+      }
+      .wrapper_left {
+        width: 50%;
+        .content {
+          padding: 50px 40px;
+          margin-bottom: 150px;
+        }
+      }
+    }
+    .pro:nth-of-type(odd),
+    .pro:nth-of-type(even) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
